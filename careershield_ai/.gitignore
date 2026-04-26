@@ -1,0 +1,41 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ML artifacts and datasets
+careershield_ai/ml_backend/model.pkl
+careershield_ai/ml_backend/vectorizer.pkl
+careershield_ai/ml_backend/fake_job_postings.csv
+
+# Node / Firebase
+node_modules/
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+
+# Android / iOS generated
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# Environment files
+.env
+*.env.local
